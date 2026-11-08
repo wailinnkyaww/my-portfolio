@@ -35,7 +35,7 @@ function Experience() {
           <div className="experience-content">
             <div className="experience-top">
               <div>
-                <h3>Frontend Developer Intern</h3>
+                <h3>Developer Intern</h3>
                 <h4>BIB Co., Ltd.</h4>
               </div>
 
