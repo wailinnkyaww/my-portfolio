@@ -19,7 +19,7 @@ export const projects: Project[] = [
     image: "/agrimart.png",
     technologies: ["React", "TypeScript", "Firebase", "CSS"],
     github: "",
-    demo: "",
+    demo: "https://agri-mart-kpak.vercel.app/",
   },
   {
     id: 2,
