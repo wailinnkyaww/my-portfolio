@@ -1,0 +1,154 @@
+.about {
+  padding: 100px 24px;
+  background: #ffffff;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-heading {
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.section-label {
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.about-heading h2 {
+  margin-top: 12px;
+  font-size: 42px;
+  color: #172554;
+}
+
+.about-heading h2 span {
+  color: #2563eb;
+}
+
+.about-heading>p {
+  margin-top: 12px;
+  color: #64748b;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 65px;
+  align-items: center;
+}
+
+.about-text h3 {
+  font-size: 29px;
+  line-height: 1.5;
+  color: #172554;
+  margin-bottom: 22px;
+}
+
+.about-text h3 span {
+  color: #2563eb;
+}
+
+.about-text p {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #64748b;
+  margin-bottom: 18px;
+}
+
+.about-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 13px 24px;
+  background: #2563eb;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.about-button:hover {
+  background: #1d4ed8;
+  transform: translateY(-3px);
+}
+
+.about-highlights {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.highlight-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 25px 20px;
+  background: #f8faff;
+  border: 1px solid #e8eef9;
+  border-radius: 14px;
+  transition: 0.3s;
+}
+
+.highlight-card:hover {
+  transform: translateY(-5px);
+  border-color: #93c5fd;
+  box-shadow: 0 12px 25px rgba(37, 99, 235, 0.08);
+}
+
+.highlight-icon {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2563eb;
+  background: #eaf2ff;
+  border-radius: 10px;
+}
+
+.highlight-card h4 {
+  font-size: 15px;
+  color: #172554;
+  margin-bottom: 8px;
+}
+
+.highlight-card p {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #64748b;
+}
+
+@media (max-width: 800px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .about-heading {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 70px 18px;
+  }
+
+  .about-heading h2 {
+    font-size: 34px;
+  }
+
+  .about-highlights {
+    grid-template-columns: 1fr;
+  }
+
+  .about-text h3 {
+    font-size: 24px;
+  }
+}
