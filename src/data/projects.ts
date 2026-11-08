@@ -16,7 +16,7 @@ export const projects: Project[] = [
     category: "Web Application",
     description:
       "A responsive agricultural platform connecting farmers and buyers. It supports crop posts, contract proposals, agricultural resource management, harvest records and payment tracking.",
-    image: "../../public/agrimart.png",
+    image: "/agrimart.png",
     technologies: ["React", "TypeScript", "Firebase", "CSS"],
     github: "",
     demo: "",
@@ -27,7 +27,7 @@ export const projects: Project[] = [
     category: "Mobile Application",
     description:
       "A React Native learning application built with Expo. It includes login, registration, profile, navigation, interactive components and local storage.",
-    image: "../../public/myojtapp.png",
+    image: "/myojtapp.png",
     technologies: ["React Native", "Expo", "JavaScript"],
     github: "",
     demo: "",
